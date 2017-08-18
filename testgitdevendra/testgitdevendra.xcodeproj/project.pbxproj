@@ -15,6 +15,7 @@
 		57C872351F4789180031F110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C872331F4789180031F110 /* LaunchScreen.storyboard */; };
 		57C872401F4789180031F110 /* testgitdevendraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8723F1F4789180031F110 /* testgitdevendraTests.swift */; };
 		57C8724B1F4789180031F110 /* testgitdevendraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8724A1F4789180031F110 /* testgitdevendraUITests.swift */; };
+		57C872591F478C990031F110 /* testdev1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C872581F478C990031F110 /* testdev1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		57C872461F4789180031F110 /* testgitdevendraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testgitdevendraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C8724A1F4789180031F110 /* testgitdevendraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testgitdevendraUITests.swift; sourceTree = "<group>"; };
 		57C8724C1F4789180031F110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C872581F478C990031F110 /* testdev1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testdev1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				57C872311F4789180031F110 /* Assets.xcassets */,
 				57C872331F4789180031F110 /* LaunchScreen.storyboard */,
 				57C872361F4789180031F110 /* Info.plist */,
+				57C872581F478C990031F110 /* testdev1.swift */,
 			);
 			path = testgitdevendra;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					57C872241F4789180031F110 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3UK68SPS35;
 						ProvisioningStyle = Automatic;
 					};
 					57C8723A1F4789180031F110 = {
@@ -263,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C8722D1F4789180031F110 /* DetailViewController.swift in Sources */,
+				57C872591F478C990031F110 /* testdev1.swift in Sources */,
 				57C8722B1F4789180031F110 /* MasterViewController.swift in Sources */,
 				57C872291F4789180031F110 /* AppDelegate.swift in Sources */,
 			);
@@ -418,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UK68SPS35;
 				INFOPLIST_FILE = testgitdevendra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = harman.testgitdevendra;
@@ -430,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3UK68SPS35;
 				INFOPLIST_FILE = testgitdevendra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = harman.testgitdevendra;
@@ -511,6 +518,7 @@
 				57C872511F4789180031F110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C872521F4789180031F110 /* Build configuration list for PBXNativeTarget "testgitdevendraTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				57C872541F4789180031F110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C872551F4789180031F110 /* Build configuration list for PBXNativeTarget "testgitdevendraUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +536,7 @@
 				57C872571F4789180031F110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
